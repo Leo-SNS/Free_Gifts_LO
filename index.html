@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQG157RQSC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+
+    <meta property="og:title" content="受け取りはこちらをタップ">
+    <meta property="og:image" content="https://leo-sns.github.io/Free-Gifts-LO/CTA_LINE_For_GitHub.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leo-sns.github.io/Free-Gifts-LO/">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <title>Redirecting...</title>
+</head>
+<body>
+    <p>Redirecting...</p>
+
+    <script>
+        var targetUrl = "https://www.notion.so/LINE-2d33808376f580ce89bdeae64d1c59fe";
+        var redirected = false;
+
+        function doRedirect() {
+            if (redirected) return;
+            redirected = true;
+            window.location.href = targetUrl;
+        }
+
+        gtag('config', 'G-CQG157RQSC', {
+            'event_callback': doRedirect
+        });
+
+        setTimeout(doRedirect, 1000);
+    </script>
+</body>
+</html>
